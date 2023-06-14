@@ -220,7 +220,7 @@ def get_data():
         return search_results[['ID', 'DATE', 'PROVINCE_CODE', 'LATITUDE', 'LONGITUDE', 'CAUSE', 'SIZE_HA', 'OUT_DATE', 'YEAR', 'MONTH', 'DAY']]
 
     # * load data
-    file_path = '../nltk.csv'
+    file_path = './nltk.csv'
     df = pd.read_csv(file_path, delimiter=',', engine='python')
 
     # * match dates
