@@ -16,3 +16,5 @@ venv.bak/
 *.csv
 
 !nltk.csv
+
+ml/data
